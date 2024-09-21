@@ -1,0 +1,152 @@
+
+
+:root{
+  --slate-color:rgb(101, 100, 100);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 20px;
+}
+
+select {
+  margin-left: 8px;
+}
+
+.group-container{
+  display: flex;
+  justify-content: center;
+  padding-left: 2em;
+  padding-right: 2em;
+  gap:4em;
+  background-color: rgb(244, 248, 251);
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.group-header{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+.group-header div{
+  display: flex;
+  align-items: center;
+  
+  gap:1em;
+}
+
+.ticket-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+  width: 300px;
+  background-color: white;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.ticket-title h1 {
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+.ticket-tags .ticket-tag {
+  
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+
+
+.ticket-status {
+  margin-top: 16px;
+}
+
+.status {
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.ticket-id{
+  color:var(--slate-color);
+}
+
+.ticket-tags{
+  display: flex;
+  gap:1em;
+  align-items: center;
+}
+
+.ticket-tag{
+  border: 1px solid #ddd;
+  color:var(--slate-color);
+}
+
+
+.dropdown-head{
+  display: flex;
+  align-items: center;
+  border:1px solid black;
+  gap:12px;
+  font-size: medium;
+
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+
+.select-container{
+  display: flex;
+  gap:20px;
+  align-items: center;
+  
+}
+
+.display-options{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background-color: white;
+}
+
+.select-container select{
+  font-size: medium;
+}
+
+.dropdown{
+  position: absolute;
+  z-index: 100;
+}
